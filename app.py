@@ -12,7 +12,6 @@ TZ = ZoneInfo("Asia/Bangkok")
 JCOLS = ["time", "asset", "dir", "entry", "sl", "tp", "rr", "lots", "risk", "result"]
 RESULTS = ["Open", "Win", "Loss", "BE"]
 
-# value = มูลค่าต่อ 1.0 ของราคา ต่อ 1 ล็อต (ค่าทั่วไป ปรับตามโบรกเกอร์)
 ASSETS = {
     "Gold (XAUUSD)": {"ticker": "GC=F", "value": 100.0, "dec": 2},
     "NAS100": {"ticker": "NQ=F", "value": 1.0, "dec": 2},
